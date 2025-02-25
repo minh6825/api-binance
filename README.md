@@ -1,3 +1,4 @@
+```javascript
 import axios from "axios";
 
 export type ICandleStick = {
@@ -104,3 +105,5 @@ export const getCryptoImage = (getCoin: string) => {
 export const unixToDate = (unix: number) => {
   return new Date(unix).toLocaleString();
 };
+```
+
